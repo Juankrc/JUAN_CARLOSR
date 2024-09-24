@@ -1,0 +1,361 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#093A56;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #000;
+    color: rgb(243, 243, 248);
+    padding: 10px;
+}
+.navbar a:hover{
+    background-color: #2380b6;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+body{
+    background-color:#307ca7;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+      background: url("images/bg.jpg") #030728#307ca7 no-repeat center;
+
+}
+.logo img{
+    width: 100px;
+    height: auto;
+    border-radius: 80px;
+    filter: drop-shadow(1px 10px 15px rgba(250, 253, 214, 0.925))
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+.presentacion {
+    height: 80vh;
+    background-image: url("../img/presentation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex; /* Para usar Flexbox */
+    flex-direction: column;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.title_present1 {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 24px;  
+}
+
+.title_present2{
+    font-family: "Kalam", cursive;
+    color: #fcf9f9;
+    font-weight: 400; /* Ajusta el grosor de la fuente */
+    font-size: 42px;  /* Tamaño de fuente más grande */
+    text-align: center
+}
+
+.text a{
+    background-color: #093A56;
+    text-decoration: none;
+    text-align: center;
+    color: #ddd;
+    padding: 15px;
+    border-color: #ddd;
+    border-radius: 30px;
+    margin-top: 500vh;
+}
+.text a:hover{
+    background-color: #2380b6;
+    text-decoration: none;
+    color: #ddd;
+    padding: 15px;
+    border-color: #ddd;
+    border-radius: 30px;
+    margin-top: 500px;
+}
+h1{
+    text-align: center;
+    color: #f8f5f5;
+    border-color: black;
+   margin: 20px;
+}
+p{
+    text-align: center;
+    margin: 20px;
+
+}
+.target{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+    align-items: center;
+   
+}
+.card{
+    border: 1px solid #000;
+    border-radius: 20px;
+    background-color: #ddd;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.proyect a{
+    text-decoration: none;
+    color: rgb(73,42, 42);
+    margin: 10px;
+    background-color: #e3e3e3;
+    padding: 7px;
+    border-radius: 5px;
+    border-color: #030728;
+
+}
+.card a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 12;
+    margin: 10px;
+    align-items: center;
+}
+
+.slide{
+    float:left;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.prev, .next{
+    position: absolute;
+    background: none;
+    cursor: pointer;
+}
+.prev{
+    left: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* aqui pego el otro codigo*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.slider-wrapper {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 70px 55px;
+  align-items: center;
+}
+
+.card-list .card-item {
+  height: auto;
+  color: #fff;
+  user-select: none;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  backdrop-filter: blur(30px);
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.card-list .card-item .user-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  border: 3px solid #fff;
+  padding: 4px;
+}
+.card-list .card-item .description-proyect {
+  font-size: 1.15rem;
+  color: #e3e3e3;
+  font-weight: 500;
+  margin: 14px 0 40px;
+}
+.card-list .card-item .message-button {
+  font-size: 1.25rem;
+  padding: 10px 35px;
+  color: #030728;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+}
+.card-list .card-item .message-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+  color: #fff;
+}
+.slider-wrapper .swiper-pagination-bullet {
+  background: #fff;
+  height: 13px;
+  width: 13px;
+  opacity: 0.5;
+}
+.slider-wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+.slider-wrapper .swiper-slide-button {
+  color: #fff;
+  margin-top: -55px;
+  transition: 0.2s ease;
+}
+.slider-wrapper .swiper-slide-button:hover {
+  color: #4658ff;
+}
+@media (max-width: 768px) {
+  .slider-wrapper {
+    margin: 0 10px 40px;
+  }
+  .slider-wrapper .swiper-slide-button {
+    display: none;
+  }
+}
+
+----------------
+
+.container {
+    display: flex;
+    gap: 20px; /* Espacio entre las columnas */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .column {
+    flex: 1;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    position: relative;
+    padding: 20px;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 1px solid #090000;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  textarea.form-control {
+    height: 150px;
+    resize: none; /* Evitar que el usuario cambie el tamaño del área de texto */
+  }
+
+  label {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    padding: 0 20px;
+    color: #999;
+    transition: 0.3s ease all;
+    pointer-events: none;
+  }
+
+  .form-control:focus + label,
+  .form-control:not(:placeholder-shown) + label {
+    top: 0;
+    left: 10px;
+    font-size: 12px;
+    color: #eaecef;
+  }
+
+  .submit-btn {
+    background-color: #093A56;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 10;
+    border-color: #999;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 32%;
+
+    
+  }
+
+  .submit-btn:hover {
+    background-color: #0056b3;
+    border-color: #141414;
+  }
+
+/* Estilos para tablets y pantallas medianas (entre 600px y 1024px) */
+@media (max-width: 1024px) {
+    body {
+        font-size: 16px;
+        background-color: #307ca7;
+    }
+
+    header, footer {
+        padding: 15px 0;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
+
+/* Estilos para móviles (menos de 600px) */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        background-color: #307ca7;
+    }
+
+    header, footer {
+        padding: 20px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        margin-bottom: 15px;
+    }
+
+    h1, h2 {
+        font-size: 1.5em; /* Reduce el tamaño de los títulos en pantallas pequeñas */
+    }
+    .submit-btn{
+        font-size: 8px;
+    }
+}
