@@ -43,7 +43,7 @@ const swiper = new Swiper('.slider-wrapper', {
     event.preventDefault(); // Evita el comportamiento predeterminado del formulario
 
     // Enviar los datos del formulario usando EmailJS
-    emailjs.sendForm('TUservice_09bvgxa', 'template_fg56m5e', this)
+    emailjs.sendForm('service_09bvgxa', 'template_fg56m5e', this)
         .then(function(response) {
             console.log('SUCCESS!', response.status, response.text);
             document.getElementById("respuesta").innerText = "Mensaje enviado correctamente.";
