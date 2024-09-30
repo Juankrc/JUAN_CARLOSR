@@ -42,7 +42,7 @@ body{
     width: 100px;
     height: auto;
     border-radius: 80px;
-    filter: drop-shadow(1px 10px 15px rgba(250, 253, 214, 0.925))
+    filter: drop-shadow(0.2px 0px 10px rgba(250, 253, 214, 0.927))
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
