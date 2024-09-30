@@ -30,11 +30,13 @@ const swiper = new Swiper('.slider-wrapper', {
     }
   });
 
+  
+
   src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"
 
   // Para enviar email con EmailJS 
   (function() {
-      emailjs.init("TU_USER_ID"); //Es el ID de usuario que te proporciona EmailJS al registrarte.
+      emailjs.init("_stV40RaoZI2LMlYP"); //Es el ID de usuario que te proporciona EmailJS al registrarte.
   })();
 
   // funcion de enviar los datos del formulario
@@ -52,3 +54,4 @@ const swiper = new Swiper('.slider-wrapper', {
             document.getElementById("respuesta").innerText = "Error al enviar el mensaje.";
         });
 });
+

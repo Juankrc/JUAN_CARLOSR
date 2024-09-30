@@ -1,8 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#093A56;
+    background-color:#2A3759;
     padding: 10px 20px;
     border-radius: 5px;
 
@@ -15,13 +23,14 @@
     padding: 10px;
 }
 .navbar a:hover{
-    background-color: #2380b6;
+    background-color: #778FD2;
     border-radius: 5px;
     padding: 5px;
 }
 
 body{
-    background-color:#307ca7;
+  font-family: 'Lora', serif;
+    background-color:#778FD2;
     display: flexbox;
     align-items: center;
     justify-content: center;
@@ -36,9 +45,11 @@ body{
     filter: drop-shadow(1px 10px 15px rgba(250, 253, 214, 0.925))
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
 
 .presentacion {
+  font-family: "Montserrat", sans-serif;
+
     height: 80vh;
     background-image: url("../img/presentation.jpg");
     background-repeat: no-repeat;
@@ -48,18 +59,24 @@ body{
     flex-direction: column;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
+    
+
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #f7f9fb;
 }
 
 .title_present1 {
-    font-family: "Kalam", cursive;
-    font-weight: 700;
+  font-family: 'Lora', serif;
     font-style: normal;
     text-align: center;
     font-size: 24px;  
 }
 
 .title_present2{
-    font-family: "Kalam", cursive;
+    
     color: #fcf9f9;
     font-weight: 400; /* Ajusta el grosor de la fuente */
     font-size: 42px;  /* Tamaño de fuente más grande */
@@ -67,7 +84,7 @@ body{
 }
 
 .text a{
-    background-color: #093A56;
+    background-color: #2A3759;
     text-decoration: none;
     text-align: center;
     color: #ddd;
@@ -77,7 +94,7 @@ body{
     margin-top: 500vh;
 }
 .text a:hover{
-    background-color: #2380b6;
+    background-color: #778FD2;
     text-decoration: none;
     color: #ddd;
     padding: 15px;
@@ -87,13 +104,14 @@ body{
 }
 h1{
     text-align: center;
-    color: #f8f5f5;
+    color: #f7f9fb;
     border-color: black;
    margin: 20px;
 }
 p{
     text-align: center;
     margin: 20px;
+    color: #f7f9fb;
 
 }
 .target{
@@ -105,12 +123,17 @@ p{
    
 }
 .card{
+  flex: 1;
     border: 1px solid #000;
     border-radius: 20px;
-    background-color: #ddd;
+    background-color: #2A3759;
     margin: 20px;
     padding: 20px;
     text-align: center;
+    min-width: 300px;
+    max-width: 400px;
+    height: 240px;
+    box-sizing: border-box;
 }
 
 .proyect a{
@@ -132,7 +155,7 @@ p{
     flex-wrap: wrap;
     column-gap: 12;
     margin: 10px;
-    align-items: center;
+   justify-content:space-around;
 }
 
 .slide{

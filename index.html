@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="img/favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <nav class="navbar">
@@ -21,7 +22,9 @@
         </div>
     </nav>
     <section class="presentacion">
-        <div class="text">
+        <div class="text" data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="400">
           <h1 class="title_present1">Juan Carlos Rodriguez Cortes</h1>
           <h2 class="title_present2">Desarrollador Web Full Stack <br /> student</h2>
           <a href="#acercaDeMi">MAS SOBRE MI</a>
@@ -33,7 +36,6 @@
                 <div class="col-12 d-flex flex-column text-center justify-content-center">
                 <h1>ACERCA DE MI</h1>
                 <p>"Soy un apasionado del aprendizaje continuo y estoy dando mis primeros pasos en el desarrollo full stack. Me motiva el desafío de aprender algo nuevo cada día, siempre con la mirada puesta en convertirme en uno de los mejores. Mi enfoque es mejorar constantemente mis habilidades y contribuir con soluciones innovadoras en el ámbito del desarrollo web y tecnológico."</p>
-                
                 </div>
             </div>
 
@@ -55,7 +57,6 @@
             </div>
         </section>
     </section>
-</body>
 <main>
     
     <section id="proyectos">
@@ -71,8 +72,8 @@
                                 <h2 class="user-name">Triqui</h2>
                                 <p class="description-proyect">Juego de triqui</p>
                                 <div class="proyect">
-                                 <a href="pegar enlace del proyecto" target="_blank">Codigo</a>
-                                 <a href="https://juego-de-triqui.vercel.app/" target="_blank">Demo</a>
+                                 <a href="https://github.com/Juankrc/Triqui" target="_blank">Codigo</a>
+                                 <a href="https://triqui-one.vercel.app/" target="_blank">Demo</a>
                                 </div> 
                             </div>
                             
@@ -81,7 +82,7 @@
                       <h2 class="user-name">SNAKE</h2>
                       <p class="description-proyect">Juego de la culebrita</p>
                       <div class="proyect">
-                        <a href="https://github.com/Juankrc/Snake/tree/2c2ec622cb30b31633d0be0a6300af6203150810" target="_blank">Codigo</a>
+                        <a href="https://github.com/Juankrc/Snake" target="_blank">Codigo</a>
                         <a href="https://juankrc.github.io/Snake/" target="_blank">Demo</a>
                        </div> 
                     </div>
@@ -91,30 +92,10 @@
                         <h2 class="user-name">Calculadora</h2>
                         <p class="description-proyect">Calculadora básica</p>
                         <div class="proyect">
-                            <a href="pegar enlace del proyecto" target="_blank">Codigo</a>
-                            <a href="pegar enlace de demo" target="_blank">Demo</a>
+                            <a href="https://github.com/Juankrc/Calculadora" target="_blank">Codigo</a>
+                            <a href="https://calculadora-gatd.vercel.app/" target="_blank">Demo</a>
                            </div> 
                     </div>
-                    
-                    <div class="card-item swiper-slide">
-                        <img src="images/img-4.jpg" alt="User Image" class="user-image">
-                        <h2 class="user-name">Emily Davis</h2>
-                        <p class="user-profession">Marketing Specialist</p>
-                        <button class="message-button">Message</button>
-                    </div>
-                    
-                    <div class="card-item swiper-slide">
-                        <img src="images/img-5.jpg" alt="User Image" class="user-image">
-                        <h2 class="user-name">Christopher Garcia</h2>
-                        <p class="user-profession">Data Scientist</p>
-                        <button class="message-button">Message</button>
-                    </div>
-                    
-                    <div class="card-item swiper-slide">
-                        <img src="images/img-6.jpg" alt="User Image" class="user-image">
-                        <h2 class="user-name">Richard Wilson</h2>
-                        <p class="user-profession">Product Designer</p>
-                        <button class="message-button">Message</button>
                     </div>
                 </div>
                 
@@ -124,11 +105,8 @@
             </div>
         </section>
     
-            
-              <!-- Linking SwiperJS script -->
               <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
             
-              <!-- Linking custom script -->
               <script src="js/main.js"></script>
         <section id="contacto">
             <h1>CONTACTAME</h1>
@@ -167,9 +145,6 @@
 
         </section>
     </main>
-        </html>
-         
-
     <footer class="footer">
         <p>Contáctame en WhatsApp:
             <a href="https://wa.me/573204455279" target="_blank">
@@ -184,5 +159,9 @@
             <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
         </div>
     
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
