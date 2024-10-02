@@ -17,6 +17,7 @@
 }
 
 .navbar a{
+  
     text-decoration: none;
     color: #000;
     color: rgb(243, 243, 248);
@@ -48,7 +49,9 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
 
 .presentacion {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
 
     height: 80vh;
     background-image: url("../img/presentation.jpg");
@@ -64,7 +67,9 @@ body{
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
   color: #f7f9fb;
 }
 
@@ -76,7 +81,7 @@ h1, h2, h3, h4 {
 }
 
 .title_present2{
-    
+  font-family: "Montserrat", sans-serif;
     color: #fcf9f9;
     font-weight: 400; /* Ajusta el grosor de la fuente */
     font-size: 42px;  /* Tamaño de fuente más grande */
@@ -84,6 +89,7 @@ h1, h2, h3, h4 {
 }
 
 .text a{
+  
     background-color: #2A3759;
     text-decoration: none;
     text-align: center;
@@ -109,9 +115,12 @@ h1{
    margin: 20px;
 }
 p{
+  font-family: 'Lora', serif;
+  font-size: 12;
     text-align: center;
     margin: 20px;
     color: #f7f9fb;
+    font-size: 18px;
 
 }
 .target{
