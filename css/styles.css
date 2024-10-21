@@ -390,4 +390,7 @@ p{
     .submit-btn{
         font-size: 8px;
     }
+    .navbar a{
+      font-size: 10px;
+    }
 }
